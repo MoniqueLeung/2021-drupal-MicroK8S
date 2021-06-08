@@ -45,7 +45,7 @@ spec:
         tier: frontend
     spec:
       containers:
-      - image: drupal:9.1.10-php8.0-apache-buster
+      - image: drupal:9-php8.0
         name: drupal
         env:
         - name: DRUPAL_DB_HOST
